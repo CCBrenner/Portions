@@ -1,0 +1,15 @@
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\bin\Debug\net6.0\Portions.Application.deps.json
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\bin\Debug\net6.0\Portions.Application.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\bin\Debug\net6.0\Portions.Application.pdb
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\bin\Debug\net6.0\Portions.Domain.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\bin\Debug\net6.0\Portions.Domain.pdb
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.csproj.AssemblyReference.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.AssemblyInfoInputs.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.AssemblyInfo.cs
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.csproj.CoreCompileInputs.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.csproj.CopyComplete
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\refint\Portions.Application.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\Portions.Application.pdb
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\Portions\Portions\Portions.Application\obj\Debug\net6.0\ref\Portions.Application.dll
