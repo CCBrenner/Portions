@@ -14,9 +14,9 @@ public class GetPortionsQueryHandler : IQueryHandler
         _portionsRepo = portionsRepo;
     }
 
-    public async Task<List<Portion>> Handle()
+    public async Task<List<Portion>> Handle(CancellationToken cancellationToken)
     {
-        var portions = await _portionsRepo.GetPortions();
+        var portions = await _portionsRepo.GetPortions(cancellationToken);
 
         if (portions is null)
         {

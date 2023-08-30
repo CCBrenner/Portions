@@ -1,6 +1,8 @@
-﻿namespace Portions.Infrastructure.Dtos.Models;
+﻿using Portions.Domain.Entities;
 
-public class PortionDto
+namespace Portions.Application.DtoModels;
+
+public class PortionAddDto
 {
     public Guid Id { get; init; }
     public DateTime CreatedDate { get; init; }

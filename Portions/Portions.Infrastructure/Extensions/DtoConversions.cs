@@ -1,7 +1,7 @@
-﻿using Portions.Domain.Entities;
-using Portions.Infrastructure.Dtos.Models;
+﻿using Portions.Application.DtoModels;
+using Portions.Domain.Entities;
 
-namespace Portions.Infrastructure.Dtos;
+namespace Portions.Infrastructure.Extensions;
 
 public static class DtoConversions
 {

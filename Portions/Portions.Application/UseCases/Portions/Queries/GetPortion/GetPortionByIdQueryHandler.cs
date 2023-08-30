@@ -15,9 +15,9 @@ public class GetPortionByIdQueryHandler : IQueryHandler
         _id = id;
     }
 
-    public async Task<Portion> Handle()
+    public async Task<Portion> Handle(CancellationToken cancellationToken)
     {
-        var portion = await _portionsRepo.GetPortionById(_id);
+        var portion = await _portionsRepo.GetPortionById(_id, cancellationToken);
 
         if (portion is null)
         {

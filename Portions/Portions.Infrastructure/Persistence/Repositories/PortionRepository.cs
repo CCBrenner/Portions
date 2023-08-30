@@ -14,27 +14,36 @@ public class PortionsRepository : IPortionsRepository
         _portionsDbContext = portionsDbContext;
     }
 
-    public async Task<List<Portion>> GetPortions()
+    public async Task<List<Portion>> GetPortions(CancellationToken cancellationToken)
     {
-        return await _portionsDbContext.Portions.ToListAsync();
+        return await _portionsDbContext.Portions.ToListAsync(cancellationToken);
     }
 
-    public async Task<Portion?> GetPortionById(Guid id)
+    public async Task<Portion?> GetPortionById(Guid id, CancellationToken cancellationToken)
     {
-        return await _portionsDbContext.Portions.FirstOrDefaultAsync(x => x.Id == id);
+        return await _portionsDbContext.Portions.FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
 
-    public void AddPortion(Guid id)
+    public async Task<Guid?> AddPortion(Portion portion, CancellationToken cancellationToken)
+    {
+        var result = await _portionsDbContext.Portions.AddAsync(portion, cancellationToken);
+
+        if (result is null)
+        {
+            return null;
+        }
+
+        await _portionsDbContext.SaveChangesAsync();
+
+        return portion.Id;
+    }
+
+    public async Task<Guid?> UpdatePortion(Portion portion, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
 
-    public void DeletePortion(Guid id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<Portion> GetPortionById()
+    public void DeletePortion(Guid id, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }

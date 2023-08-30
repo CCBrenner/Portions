@@ -14,7 +14,7 @@ public class DbInitFactory
 
         for (int i = 0; i < initialNumberOfPortions; i++)
         {
-            portions.Add(new Portion(Guid.NewGuid()));
+            portions.Add(Portion.Create(Guid.NewGuid()));
         }
 
         dbInit.PortionsList = portions;
